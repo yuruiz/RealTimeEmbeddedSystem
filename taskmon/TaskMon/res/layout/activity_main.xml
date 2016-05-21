@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.taskmon.MainActivity" >
+
+    <TextView
+        android:id="@+id/cancelReserveResponse"
+        android:layout_width="@dimen/input_width"
+        android:layout_height="@dimen/view_text_height"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/StartMonitorResponse"
+        android:layout_width="@dimen/input_width"
+        android:layout_height="@dimen/view_text_height"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/StopMonitorResponse"
+        android:layout_width="@dimen/input_width"
+        android:layout_height="@dimen/view_text_height"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    <TextView
+        android:id="@+id/energy"
+        android:layout_width="@dimen/input_width"
+        android:layout_height="@dimen/view_text_height"
+        android:layout_alignLeft="@+id/power"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="92dp"
+        android:text="energy"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/power"
+        android:layout_width="@dimen/input_width"
+        android:layout_height="@dimen/view_text_height"
+        android:layout_above="@+id/energy"
+        android:layout_alignLeft="@+id/cancelReserveResponse"
+        android:layout_marginBottom="107dp"
+        android:text="power"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/freq"
+        android:layout_width="@dimen/input_width"
+        android:layout_height="@dimen/view_text_height"
+        android:layout_alignLeft="@+id/power"
+        android:layout_alignTop="@+id/graph"
+        android:layout_marginTop="53dp"
+        android:text="frequency"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TableLayout
+        android:id="@+id/tidpower"
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/cancelReserveResponse"
+        android:layout_marginLeft="128dp"
+        android:layout_toRightOf="@+id/cancelReserveResponse" >
+
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:text="Threads Energy List" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

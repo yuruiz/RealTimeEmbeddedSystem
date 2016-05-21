@@ -1,0 +1,5 @@
+obj-y += calc.o
+obj-y += ps.o
+
+header-y += ps.h
+header-y += energy_struct.h

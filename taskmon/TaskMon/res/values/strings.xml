@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TaskMon</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="compute_time">Compute Time/us</string>
+    <string name="period">Period Time/us</string>
+    <string name="cpuIDhint">Cpu ID</string>
+    <string name="threadID">Thread ID</string>
+    
+    <string-array name="cpuID">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>

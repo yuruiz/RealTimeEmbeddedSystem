@@ -1,0 +1,9 @@
+obj-y += calc.o
+obj-y += ps.o
+obj-y += reserve.o
+obj-y += energy.o
+obj-y += sysclock.o
+
+header-y += ps.h
+header-y += energy_struct.h
+header-y += sysclock.h

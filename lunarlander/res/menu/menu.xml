@@ -1,0 +1,11 @@
+<!--  <?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="@string/menu_start" android:id="@+id/newgame" android:icon="@drawable/ic_menu_play"></item>
+<item android:title="@string/menu_stop" android:id="@+id/preferences" android:icon="@drawable/ic_menu_preferences"></item>
+<item android:title="@string/menu_help" android:id="@+id/help" android:icon="@drawable/ic_menu_help"></item>
+<item android:title="@string/menu_about" android:id="@+id/about" android:icon="@drawable/ic_menu_info"></item>
+<item android:title="@string/menu_quit" android:id="@+id/quit" android:icon="@drawable/ic_menu_close_clear_cancel"></item>
+</menu>
+-->
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"></menu>
